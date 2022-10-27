@@ -144,7 +144,7 @@ TextureImporter:
       213: 1973949376130178213
     second: outline_48px_gaming_46
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -165,6 +165,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -203,6 +204,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -242,6 +244,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1252,6 +1266,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      outline_48px_gaming_39: -7591969734769914930
+      outline_48px_gaming_35: -6629083629121748743
+      outline_48px_gaming_15: -9165739352982051290
+      outline_48px_gaming_11: -2000769152724677189
+      outline_48px_gaming_4: -7027832687888800018
+      outline_48px_gaming_16: 2717468952985780422
+      outline_48px_gaming_23: -3457815674927367582
+      outline_48px_gaming_20: -2583683916740587029
+      outline_48px_gaming_17: 4100649568236048627
+      outline_48px_gaming_31: -2051095898768022536
+      outline_48px_gaming_26: 98111674559507733
+      outline_48px_gaming_44: 1624339461951064889
+      outline_48px_gaming_3: 6057192699417419075
+      outline_48px_gaming_12: -401159905142366651
+      outline_48px_gaming_19: -762670771825240626
+      outline_48px_gaming_41: 6638518179814054109
+      outline_48px_gaming_33: 2933063086430160825
+      outline_48px_gaming_38: 3384065912207081783
+      outline_48px_gaming_28: -6429632302054719377
+      outline_48px_gaming_14: 230544569684065293
+      outline_48px_gaming_45: -5982951485145212644
+      outline_48px_gaming_10: -1507849075665020732
+      outline_48px_gaming_25: -3545524148987419564
+      outline_48px_gaming_1: -4440988672473646622
+      outline_48px_gaming_5: -8968832166576039029
+      outline_48px_gaming_21: 8254585008344102597
+      outline_48px_gaming_7: 8179079170818932800
+      outline_48px_gaming_22: -7045119376946384890
+      outline_48px_gaming_34: 3556882371875140898
+      outline_48px_gaming_18: -6406638927405404739
+      outline_48px_gaming_42: 1353087465490990684
+      outline_48px_gaming_24: 2274068388261077622
+      outline_48px_gaming_43: -8924873726106211097
+      outline_48px_gaming_2: 4265635056904286667
+      outline_48px_gaming_13: -9159244535694195702
+      outline_48px_gaming_8: -7752558508487771665
+      outline_48px_gaming_27: -8003244545291351022
+      outline_48px_gaming_32: 902898811709743534
+      outline_48px_gaming_29: 6143624978803227713
+      outline_48px_gaming_40: -2511158375317857130
+      outline_48px_gaming_30: -389818708351249607
+      outline_48px_gaming_46: 1973949376130178213
+      outline_48px_gaming_36: 8537917276841240527
+      outline_48px_gaming_9: 4856159596848719830
+      outline_48px_gaming_0: 8234329708280522325
+      outline_48px_gaming_6: 3700217304888336636
+      outline_48px_gaming_37: 9119294908298281670
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
