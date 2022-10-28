@@ -31,6 +31,18 @@ MonoBehaviour:
     m_Key: buttonExit
     m_Metadata:
       m_Items: []
+  - m_Id: 392707819675648
+    m_Key: tittleOptions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392857497608192
+    m_Key: tittleLanguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 406241655889920
+    m_Key: buttonBack
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -34,6 +34,18 @@ MonoBehaviour:
     m_Localized: Salir
     m_Metadata:
       m_Items: []
+  - m_Id: 392707819675648
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392857497608192
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 406241655889920
+    m_Localized: Volver
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
