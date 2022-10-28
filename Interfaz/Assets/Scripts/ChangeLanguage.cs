@@ -8,6 +8,18 @@ public class ChangeLanguage : MonoBehaviour
     int idiomaActual = 0;
     int IDIOMASTOTALES;
 
+    void SelectCurrentLanguage()
+    {
+        UnityEngine.Localization.Locale searcher = LocalizationSettings.AvailableLocales.Locales[idiomaActual];
+
+        //Mientras el idioma que esta funcionando no es el que estoy revisando
+        //Miro el siguiente
+        while (searcher != LocalizationSettings.SelectedLocale && idiomaActual < LocalizationSettings.AvailableLocales.Locales.Count)
+        {
+            idiomaActual++;
+            searcher = LocalizationSettings.AvailableLocales.Locales[idiomaActual];
+        }
+    }
 
     void Awake()
     {
@@ -32,6 +44,7 @@ public class ChangeLanguage : MonoBehaviour
     {
          IDIOMASTOTALES = LocalizationSettings.AvailableLocales.Locales.Count;
         //Idiomas = {Español, Inglés, Francés, Alemán, Italiano...}
+        SelectCurrentLanguage();
     }
 
     public void ClickPrevious()
