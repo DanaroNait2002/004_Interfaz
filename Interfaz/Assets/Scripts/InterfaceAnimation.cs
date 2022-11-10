@@ -5,7 +5,7 @@ using UnityEngine;
 public class InterfaceAnimation : MonoBehaviour
 {
     [SerializeField]
-    GameObject logoImage, buttonsImage, subtittleImage, button01, button02, button03, button04, flag;
+    GameObject logoImage, buttonsImage, subtittleImage, button01, button02, button03, button04;
 
 
 
@@ -58,11 +58,6 @@ public class InterfaceAnimation : MonoBehaviour
 
     void Beat_button04()
     {
-        LeanTween.scale(button04, Vector3.one, 0.25f).setEaseOutBack().setOnComplete(Beat_Flag);
-    }
-
-    void Beat_Flag()
-    {
-        LeanTween.scale(flag, Vector3.one, 0.25f).setEaseOutBack();
+        LeanTween.scale(button04, Vector3.one, 0.25f).setEaseOutBack();
     }
 }
