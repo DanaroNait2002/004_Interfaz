@@ -14,4 +14,5 @@ public class ButtonsSize : MonoBehaviour
         LeanTween.cancel(gameObject);
         LeanTween.scale(gameObject, Vector3.one, 0.25f).setEaseOutBack();
     }
+
 }
